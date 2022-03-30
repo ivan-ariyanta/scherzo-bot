@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ai-music'`, () => {
+  it(`should have as title 'scherzo-bot'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ai-music');
+    expect(app.title).toEqual('scherzo-bot');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ai-music app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('scherzo-bot app is running!');
   });
 });

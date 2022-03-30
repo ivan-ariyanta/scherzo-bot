@@ -7,7 +7,7 @@ import * as mm from '@magenta/music';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title='ai-music'
+  title='scherzo-bot'
   selectedView = 'generate'
   messagesList = ["...awaiting instruction to compose...", "...composing...", "music composed!", "training the models..."]
   message = this.messagesList[3]

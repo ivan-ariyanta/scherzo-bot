@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/ai-music'),
+      dir: require('path').join(__dirname, './coverage/scherzo-bot'),
       subdir: '.',
       reporters: [
         { type: 'html' },
